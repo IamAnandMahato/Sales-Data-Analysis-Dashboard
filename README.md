@@ -74,8 +74,8 @@ sales-dashboard/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/sales-dashboard.git
-cd sales-dashboard
+git clone https://github.com/IamAnandMahato/Sales-Data-Analysis-Dashboard.git
+cd Sales-Data-Analysis-Dashboard
 ```
 
 ---
