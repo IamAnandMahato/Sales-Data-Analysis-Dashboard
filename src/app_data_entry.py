@@ -48,8 +48,9 @@ def main():
                 data_source = st.sidebar.radio("Select Source", ["CSV", "API"])
 
                 # Load Data
+                file_path = "data/sales_data.csv"
+
                 if data_source == "CSV":
-                    file_path = "data/sales_data.csv"
                     df = pd.read_csv(file_path)
                 else:
                     df = fetch_api_data()
@@ -63,7 +64,9 @@ def main():
                 # ---------------- DATA ENTRY ----------------
                 st.subheader("➕ Add New Sales Record")
 
-                with st.form("data_entry_form"):
+                st.info("Fill the form and click 'Add Data'. Data will update instantly.")
+
+                with st.form("data_entry_form", clear_on_submit=True):
                     date = st.date_input("Date")
                     region = st.text_input("Region")
                     product = st.text_input("Product")
@@ -87,10 +90,14 @@ def main():
                             }])
 
                             new_data.to_csv(file_path, mode='a', header=False, index=False)
-                            st.success("Data added successfully! Refresh page to see changes.")
+
+                            st.success("✅ Data added successfully!")
+
+                            # 🔥 Instant refresh
+                            st.rerun()
 
                         else:
-                            st.warning("Data entry only works with CSV mode.")
+                            st.warning("⚠️ Data entry works only in CSV mode.")
 
                 # ---------------- FILTERS ----------------
                 st.sidebar.subheader("Filters")
