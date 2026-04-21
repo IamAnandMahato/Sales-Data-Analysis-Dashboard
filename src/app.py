@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-from src.auth import create_user, login_user
-from src.ml_model import train_model, predict_sales
-from src.api_data import fetch_api_data
+from auth import create_user, login_user
+from ml_model import train_model, predict_sales
+from api_data import fetch_api_data
 
 def main():
 
