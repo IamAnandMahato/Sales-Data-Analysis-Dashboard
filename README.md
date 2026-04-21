@@ -1,40 +1,46 @@
-# 📊 Advanced Sales Analytics Dashboard
+# 📊 Sales Data Analysis Dashboard
 
-🚀 An end-to-end **Sales Data Analysis & Prediction System** built using modern data tools, featuring **interactive dashboards, machine learning, database integration, API connectivity, and authentication**.
+🚀 An end-to-end **Sales Analytics & Prediction System** built using modern data tools. This project provides **interactive visualizations, machine learning-based forecasting, database integration, API connectivity, and user authentication**.
+
+---
+
+## 🔗 Repository Link
+
+👉 https://github.com/IamAnandMahato/Sales-Data-Analysis-Dashboard
 
 ---
 
 ## 🔥 Key Features
 
-* 📈 **Interactive Dashboard** (Streamlit + Plotly)
-* 🤖 **Machine Learning Model** (Sales Prediction using Linear Regression)
-* 🗄️ **Database Integration** (MySQL)
-* 🌐 **Live API Data Fetching**
-* 🔐 **User Authentication System** (Login/Signup)
-* 📊 **Real-time Filters & KPI Metrics**
-* ☁️ **Cloud Deployment Ready**
+* 📈 Interactive Dashboard (Streamlit + Plotly)
+* 🤖 Machine Learning (Sales Prediction using Linear Regression)
+* 🗄️ MySQL Database Integration
+* 🌐 Live API Data Fetching
+* 🔐 User Authentication System (Login/Signup)
+* 📊 Dynamic Filters & KPI Metrics
+* ☁️ Deployment Ready
 
 ---
 
 ## 🧠 Tech Stack
 
-| Category         | Technologies Used |
-| ---------------- | ----------------- |
-| Frontend         | Streamlit         |
-| Backend          | Python            |
-| Data Analysis    | Pandas            |
-| Visualization    | Plotly            |
-| Machine Learning | Scikit-learn      |
-| Database         | MySQL             |
-| API Integration  | Requests          |
-| Version Control  | Git               |
+| Category         | Technologies |
+| ---------------- | ------------ |
+| Frontend         | Streamlit    |
+| Backend          | Python       |
+| Data Analysis    | Pandas       |
+| Visualization    | Plotly       |
+| Machine Learning | Scikit-learn |
+| Database         | MySQL        |
+| API              | Requests     |
+| Version Control  | Git          |
 
 ---
 
 ## 📁 Project Structure
 
-```
-sales-dashboard/
+```id="l5p6lj"
+Sales-Data-Analysis-Dashboard/
 │
 ├── src/
 │   ├── app.py
@@ -65,15 +71,19 @@ sales-dashboard/
 
 ## 📊 Dashboard Preview
 
-![Dashboard Screenshot](assets/dashboard.png)
+> Add your screenshot here 👇 (very important for recruiters)
+
+```id="xvpxaj"
+assets/dashboard.png
+```
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the Repository
+### 1️⃣ Clone Repository
 
-```bash
+```bash id="qt9bl9"
 git clone https://github.com/IamAnandMahato/Sales-Data-Analysis-Dashboard.git
 cd Sales-Data-Analysis-Dashboard
 ```
@@ -82,7 +92,7 @@ cd Sales-Data-Analysis-Dashboard
 
 ### 2️⃣ Install Dependencies
 
-```bash
+```bash id="g9hxtj"
 pip install -r requirements.txt
 ```
 
@@ -90,9 +100,9 @@ pip install -r requirements.txt
 
 ### 3️⃣ Configure Database
 
-Update `config/config.py`:
+Edit `config/config.py`:
 
-```python
+```python id="zxknq5"
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
@@ -103,9 +113,9 @@ DB_CONFIG = {
 
 ---
 
-### 4️⃣ Run the Application
+### 4️⃣ Run Project
 
-```bash
+```bash id="9v41nf"
 streamlit run run.py
 ```
 
@@ -113,61 +123,59 @@ streamlit run run.py
 
 ## 🤖 Machine Learning
 
-* Model Used: **Linear Regression**
+* Model: Linear Regression
 * Inputs: Day, Quantity
 * Output: Predicted Sales
 
-✔ Enables data-driven decision making
-✔ Helps forecast future sales trends
+✔ Helps forecast future sales
+✔ Supports data-driven decisions
 
 ---
 
 ## 🌐 API Integration
 
-* Fetches real-time data from external APIs
-* Can be extended to IoT or live business systems
+* Fetches real-time sales data
+* Can be extended to IoT / live systems
 
 ---
 
-## 🔐 Authentication System
+## 🔐 Authentication
 
-* Secure login & signup functionality
-* Password hashing using SHA-256
-* SQLite-based user storage
+* Login & Signup system
+* Password hashing (SHA-256)
+* SQLite database
 
 ---
 
-## 📈 Business Insights Provided
+## 📈 Insights Provided
 
 * Sales trends over time
-* Region-wise performance
-* Category-wise analysis
+* Region-wise analysis
+* Category-wise performance
 * Profit vs Sales relationship
 
 ---
 
-## ☁️ Deployment
-
-You can deploy this project on:
+## ☁️ Deployment Options
 
 * Streamlit Cloud
-* AWS EC2 + RDS
+* AWS (EC2 + RDS)
 * Docker (optional)
 
 ---
 
 ## 💼 Resume Description
 
-**Developed an end-to-end Sales Analytics Dashboard with machine learning-based prediction, real-time data integration, and secure authentication, enabling actionable business insights and improved decision-making.**
+**Developed a full-stack Sales Data Analysis Dashboard with machine learning-based prediction, real-time API integration, and secure authentication, enabling actionable business insights.**
 
 ---
 
-## 🔮 Future Enhancements
+## 🔮 Future Improvements
 
-* 📊 Advanced forecasting (ARIMA / LSTM)
-* 📱 Mobile app integration
-* 🔔 Real-time alerts & notifications
-* 🌍 Multi-user role-based access
+* Advanced ML (ARIMA / LSTM)
+* Role-based authentication
+* Real-time alerts
+* Mobile app integration
 
 ---
 
@@ -178,12 +186,12 @@ B.Tech CSE (2026)
 
 ---
 
-## ⭐ Show Your Support
+## ⭐ Support
 
 If you like this project:
 
-* ⭐ Star this repository
-* 🍴 Fork it
-* 🔗 Share with others
+* Star ⭐ the repo
+* Fork 🍴 it
+* Share 🔗 with others
 
 ---
