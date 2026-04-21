@@ -1,6 +1,6 @@
 # 📊 Sales Data Analysis Dashboard
 
-🚀 An end-to-end **Sales Analytics & Prediction System** built using modern data tools. This project provides **interactive visualizations, machine learning-based forecasting, database integration, API connectivity, and user authentication**.
+🚀 An end-to-end **Sales Analytics & Prediction System** built using modern data tools. This project provides **interactive dashboards, machine learning-based forecasting, API integration, and authentication system**.
 
 ---
 
@@ -10,14 +10,20 @@
 
 ---
 
+## 🌐 Live Demo
+
+👉 (Add your deployed Streamlit link here)
+
+---
+
 ## 🔥 Key Features
 
 * 📈 Interactive Dashboard (Streamlit + Plotly)
 * 🤖 Machine Learning (Sales Prediction using Linear Regression)
-* 🗄️ MySQL Database Integration
-* 🌐 Live API Data Fetching
-* 🔐 User Authentication System (Login/Signup)
+* 🌐 Live API Data Integration
+* 🔐 Login & Signup Authentication System
 * 📊 Dynamic Filters & KPI Metrics
+* 📉 Data Visualization (Charts & Graphs)
 * ☁️ Deployment Ready
 
 ---
@@ -31,7 +37,6 @@
 | Data Analysis    | Pandas       |
 | Visualization    | Plotly       |
 | Machine Learning | Scikit-learn |
-| Database         | MySQL        |
 | API              | Requests     |
 | Version Control  | Git          |
 
@@ -39,27 +44,27 @@
 
 ## 📁 Project Structure
 
-```id="l5p6lj"
+```id="4z6dyu"
 Sales-Data-Analysis-Dashboard/
 │
 ├── src/
 │   ├── app.py
 │   ├── auth.py
-│   ├── db.py
 │   ├── ml_model.py
 │   └── api_data.py
 │
 ├── data/
 │   └── sales_data.csv
 │
-├── config/
-│   └── config.py
-│
 ├── assets/
-│   └── dashboard.png
-│
-├── .streamlit/
-│   └── config.toml
+│   ├── dashboard.png
+│   ├── data_table.png
+│   ├── login_signup.png
+│   ├── profit_vs_sales.png
+│   ├── sales_by_category.png
+│   ├── sales_by_region.png
+│   ├── sales_prediction.png
+│   └── sales_trend.png
 │
 ├── run.py
 ├── requirements.txt
@@ -69,13 +74,53 @@ Sales-Data-Analysis-Dashboard/
 
 ---
 
-## 📊 Dashboard Preview
+## 📊 Dashboard Screenshots
 
-> Add your screenshot here 👇 (very important for recruiters)
+### 🔐 Login & Signup
 
-```id="xvpxaj"
-assets/dashboard.png
-```
+![Login Signup](assets/login_signup.png)
+
+---
+
+### 📈 Dashboard Overview
+
+![Dashboard](assets/dashboard.png)
+
+---
+
+### 📅 Sales Trend
+
+![Sales Trend](assets/sales_trend.png)
+
+---
+
+### 🌍 Sales by Region
+
+![Sales by Region](assets/sales_by_region.png)
+
+---
+
+### 📦 Sales by Category
+
+![Sales by Category](assets/sales_by_category.png)
+
+---
+
+### 📊 Profit vs Sales Analysis
+
+![Profit vs Sales](assets/profit_vs_sales.png)
+
+---
+
+### 🤖 Sales Prediction
+
+![Sales Prediction](assets/sales_prediction.png)
+
+---
+
+### 📋 Data Table View
+
+![Data Table](assets/data_table.png)
 
 ---
 
@@ -83,7 +128,7 @@ assets/dashboard.png
 
 ### 1️⃣ Clone Repository
 
-```bash id="qt9bl9"
+```bash id="01id30"
 git clone https://github.com/IamAnandMahato/Sales-Data-Analysis-Dashboard.git
 cd Sales-Data-Analysis-Dashboard
 ```
@@ -92,31 +137,16 @@ cd Sales-Data-Analysis-Dashboard
 
 ### 2️⃣ Install Dependencies
 
-```bash id="g9hxtj"
+```bash id="8v3p1y"
 pip install -r requirements.txt
 ```
 
 ---
 
-### 3️⃣ Configure Database
+### 3️⃣ Run Project
 
-Edit `config/config.py`:
-
-```python id="zxknq5"
-DB_CONFIG = {
-    "host": "localhost",
-    "user": "root",
-    "password": "your_password",
-    "database": "sales_db"
-}
-```
-
----
-
-### 4️⃣ Run Project
-
-```bash id="9v41nf"
-streamlit run run.py
+```bash id="4t8drx"
+streamlit run src/app.py
 ```
 
 ---
@@ -124,24 +154,24 @@ streamlit run run.py
 ## 🤖 Machine Learning
 
 * Model: Linear Regression
-* Inputs: Day, Quantity
+* Input Features: Day, Quantity
 * Output: Predicted Sales
 
 ✔ Helps forecast future sales
-✔ Supports data-driven decisions
+✔ Supports data-driven decision making
 
 ---
 
 ## 🌐 API Integration
 
 * Fetches real-time sales data
-* Can be extended to IoT / live systems
+* Can be extended to IoT / business systems
 
 ---
 
-## 🔐 Authentication
+## 🔐 Authentication System
 
-* Login & Signup system
+* Login & Signup functionality
 * Password hashing (SHA-256)
 * SQLite database
 
@@ -156,11 +186,10 @@ streamlit run run.py
 
 ---
 
-## ☁️ Deployment Options
+## ☁️ Deployment
 
-* Streamlit Cloud
-* AWS (EC2 + RDS)
-* Docker (optional)
+Deployed on Streamlit Cloud
+(Add your live link above)
 
 ---
 
@@ -192,6 +221,6 @@ If you like this project:
 
 * Star ⭐ the repo
 * Fork 🍴 it
-* Share 🔗 with others
+* Share 🔗
 
 ---
