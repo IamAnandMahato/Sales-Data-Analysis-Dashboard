@@ -1,6 +1,6 @@
 import requests
 import pandas as pd
-from config.config import API_URL
+API_URL = "https://api.mocki.io/v1/0a1b2c3d"
 
 def fetch_api_data():
     try:
