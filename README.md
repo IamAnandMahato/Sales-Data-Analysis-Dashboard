@@ -12,7 +12,7 @@
 
 ## 🌐 Live Demo
 
-👉 (Add your deployed Streamlit link here)
+👉 (https://sales-data-analysis-dashboard2.streamlit.app/)
 
 ---
 
